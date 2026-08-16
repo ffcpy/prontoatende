@@ -1,0 +1,9 @@
+services:
+  landing:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_WHATSAPP_URL: ${NEXT_PUBLIC_WHATSAPP_URL:-https://wa.me/5511915107450}
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
