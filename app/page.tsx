@@ -23,7 +23,7 @@ const benefits = [
 
 const steps = [
   ["01", "Entre em contato", "Fale conosco pelo WhatsApp e tire suas dúvidas com tranquilidade."],
-  ["02", "Conheça as opções", "Receba informações sobre nossas unidades e formas de contato."],
+  ["02", "Conheça as opções", "Receba informações sobre nossas unidades e formas de acolhimento."],
   ["03", "Escolha o próximo passo", "Decida com calma o que faz mais sentido para você e sua família."],
 ];
 
@@ -55,8 +55,8 @@ export default function Home() {
             Sua jornada de <span>transformação</span> começa aqui.
           </h1>
           <p className="heroText">
-            Acolhimento humano e confidencial para você ou seu familiar.
-            Estamos prontos para ouvir e orientar em São Paulo e Minas Gerais.
+            Acolhimento humano e sigiloso para você ou seu familiar.
+            Estamos prontos para ouvir.
           </p>
           <div className="heroActions">
             <a className="button primary" href={whatsappUrl} target="_blank" rel="noreferrer">
