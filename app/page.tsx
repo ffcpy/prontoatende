@@ -7,7 +7,7 @@ const benefits = [
   {
     icon: "✓",
     title: "100% confidencial",
-    description: "Uma conversa com discrição, respeito e total confidencialidade.",
+    description: "Entre em contato para saber mais sobre nossas unidades.",
   },
   {
     icon: "♡",
@@ -24,7 +24,7 @@ const benefits = [
 const steps = [
   ["01", "Entre em contato", "Fale conosco pelo WhatsApp e tire suas dúvidas com tranquilidade."],
   ["02", "Conheça as opções", "Receba informações sobre nossas unidades e formas de acolhimento."],
-  ["03", "Escolha o próximo passo", "Decida com calma o que faz mais sentido para você e sua família."],
+  ["03", "Escolha o próximo passo", "Pessoas em tais situações precisam de ajuda para reconhecer o problema e o nosso trabalho começa a partir desse ponto."],
 ];
 
 export default function Home() {
@@ -55,8 +55,10 @@ export default function Home() {
             Sua jornada de <span>transformação</span> começa aqui.
           </h1>
           <p className="heroText">
-            Acolhimento humano e sigiloso para você ou seu familiar.
-            Estamos prontos para ouvir.
+            O Primeiro passo para uma nova jornada começa aqui. Temos uma equipe especializada para ajudar você ou seu familiar. Apoio Humanizado e confidencial.
+          </p>
+          <p className="heroText">
+            Entendemos primeiro a necessidade do acolhido para poder direcionar ao tratamento mais adequado.
           </p>
           <div className="heroActions">
             <a className="button primary" href={whatsappUrl} target="_blank" rel="noreferrer">
@@ -85,8 +87,8 @@ export default function Home() {
 
       <section className="stats" aria-label="Nossos diferenciais">
         <div className="shell statsGrid">
-          <div><strong>SP e MG</strong><span>unidades</span></div>
-          <div><strong>100%</strong><span>confidencial</span></div>
+          <div><strong>SP e MG</strong></div>
+          <div><strong>+35</strong><span>unidades</span></div>
           <div><strong>24h</strong><span>por dia</span></div>
           <p>Uma nova fase pode começar com o primeiro contato.</p>
         </div>
