@@ -7,7 +7,7 @@ Landing page responsiva para acolhimento e contato 24 horas.
 Informe o link real do WhatsApp e suba a aplicação:
 
 ```bash
-NEXT_PUBLIC_WHATSAPP_URL=https://wa.me/5511915107450 docker compose up --build -d
+NEXT_PUBLIC_WHATSAPP_URL='https://wa.me/5511915107450?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.' docker compose up --build -d
 ```
 
 A landing ficará disponível em `http://localhost:3000`.

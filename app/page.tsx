@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 const whatsappUrl =
-  process.env.NEXT_PUBLIC_WHATSAPP_URL ?? "https://wa.me/5511915107450";
+  process.env.NEXT_PUBLIC_WHATSAPP_URL ??
+  "https://wa.me/5511915107450?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.";
 
 const benefits = [
   {

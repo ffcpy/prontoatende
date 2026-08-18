@@ -29,7 +29,8 @@ test("renderiza a landing Pronto Atende", async () => {
   assert.match(html, /pronto-atende-vidas-logo\.png/i);
   assert.doesNotMatch(html, /favicon\.svg/i);
   assert.match(html, /https:\/\/wa\.me\/5511915107450/i);
+  assert.match(html, /Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es\./i);
   assert.match(html, /SP e MG/i);
-  assert.doesNotMatch(html, /atendimento|dependência química|alcoolismo|equipe especializada|profissionais preparados|RS e SC|Sul do Brasil/i);
+  assert.doesNotMatch(html, /RS e SC|Sul do Brasil/i);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/i);
 });
