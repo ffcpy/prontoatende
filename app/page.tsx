@@ -7,7 +7,7 @@ const whatsappUrl =
 const benefits = [
   {
     icon: "✓",
-    title: "100% confidencial",
+    title: "+35 Unidades parceiras",
     description: "Entre em contato para saber mais sobre nossas unidades.",
   },
   {
@@ -29,7 +29,7 @@ const steps = [
 ];
 
 export default function Home() {
-  return (
+  return ( 
     <main>
       <section className="hero" id="inicio">
         <div className="orb orbLeft" />
